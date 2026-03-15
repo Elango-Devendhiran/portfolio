@@ -40,6 +40,16 @@
         /* Text Clamping */
         .hero-title { font-size: clamp(2.2rem, 8vw, 5rem) !important; line-height: 1.1; }
         .footer-title { font-size: clamp(2rem, 6vw, 4rem) !important; line-height: 1.1; }
+        .browser-screen a, a .browser-screen {
+        display: block;
+        cursor: pointer;
+    }
+    a .browser-screen:hover {
+        opacity: 0.92;
+        transform: scale(1.02);
+        box-shadow: 0 30px 60px -12px rgba(0,0,0,0.15);
+        transition: all 0.3s ease;
+    }
     </style>
 </head>
 <body class="antialiased">
@@ -151,14 +161,24 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
             <div class="reveal project-card group">
                 <div class="mockup-header"><div class="dot bg-red-400"></div><div class="dot bg-yellow-400"></div><div class="dot bg-green-400"></div></div>
-                <div class="browser-screen bg-gray-50"><img src="VG web.png" class="w-full object-contain" alt="Voltech Group"></div>
+                <!-- Voltech Group -->
+                <a href="https://voltechgroup.com" target="_blank" rel="noopener noreferrer">
+                    <div class="browser-screen bg-gray-50">
+                        <img src="VG web.png" class="w-full object-contain" alt="Voltech Group">
+                    </div>
+                </a>
                 <div class="mt-6 md:mt-8 flex justify-between items-start">
                     <div><h4 class="font-bold text-xl md:text-2xl uppercase">Voltech Group</h4><p class="text-gray-400 text-xs md:text-sm mt-1">Main Corporate Portal</p></div>
                 </div>
             </div>
             <div class="reveal project-card group">
                 <div class="mockup-header"><div class="dot bg-red-400"></div><div class="dot bg-yellow-400"></div><div class="dot bg-green-400"></div></div>
-                <div class="browser-screen bg-gray-50"><img src="vmcl web.png" class="w-full object-contain" alt="Voltech Manufacturing"></div>
+                <!-- Voltech Manufacturing -->
+                <a href="https://products.voltechgroup.com" target="_blank" rel="noopener noreferrer">
+                    <div class="browser-screen bg-gray-50">
+                        <img src="vmcl web.png" class="w-full object-contain" alt="Voltech Manufacturing">
+                    </div>
+                </a>
                 <div class="mt-6 md:mt-8 flex justify-between items-start">
                     <div><h4 class="font-bold text-xl md:text-2xl uppercase">Voltech Manufacturing Company Pvt Ltd</h4><p class="text-gray-400 text-xs md:text-sm mt-1">Electrical Products</p></div>
                     
@@ -166,14 +186,24 @@
             </div>
             <div class="reveal project-card group">
                 <div class="mockup-header"><div class="dot bg-red-400"></div><div class="dot bg-yellow-400"></div><div class="dot bg-green-400"></div></div>
-                <div class="browser-screen bg-gray-50"><img src="vipra web.png" class="w-full object-contain" alt="Voltech Vipra"></div>
+                <!-- Voltech Vipra -->
+                <a href="https://voltechvipra.com" target="_blank" rel="noopener noreferrer">
+                    <div class="browser-screen bg-gray-50">
+                        <img src="vipra web.png" class="w-full object-contain" alt="Voltech Vipra">
+                    </div>
+                </a>
                 <div class="mt-6 md:mt-8 flex justify-between items-start">
                     <div><h4 class="font-bold text-xl md:text-2xl uppercase">Voltech Vipra Engineers Pvt Ltd</h4><p class="text-gray-400 text-xs md:text-sm mt-1">Fire & Safety</p></div>
                 </div>
             </div>
             <div class="reveal project-card group">
                 <div class="mockup-header"><div class="dot bg-red-400"></div><div class="dot bg-yellow-400"></div><div class="dot bg-green-400"></div></div>
-                <div class="browser-screen bg-gray-50"><img src="bliss web.png" class="w-full object-contain" alt="Voltech Bliss"></div>
+                <!-- Voltech Bliss -->
+                <a href="https://voltechvipra.com/bliss" target="_blank" rel="noopener noreferrer">
+                    <div class="browser-screen bg-gray-50">
+                        <img src="bliss web.png" class="w-full object-contain" alt="Voltech Bliss">
+                    </div>
+                </a>
                 <div class="mt-6 md:mt-8 flex justify-between items-start">
                     <div><h4 class="font-bold text-xl md:text-2xl uppercase">Voltech Bliss Management Services Pvt Ltd</h4><p class="text-gray-400 text-xs md:text-sm mt-1">Management Services</p></div>
                     
